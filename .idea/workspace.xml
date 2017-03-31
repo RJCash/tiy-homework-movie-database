@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a00694d-6b6e-4f04-bcf2-0df3af7b1855" name="Default" comment="" />
+    <list default="true" id="4a00694d-6b6e-4f04-bcf2-0df3af7b1855" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/27d0f6b0-c492-4691-961b-d6e179c56526.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/27d0f6b0-c492-4691-961b-d6e179c56526.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,24 +45,6 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="movie@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="movie_genre" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -68,11 +52,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="movie.public.person" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.person">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movie.public.movie" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/27d0f6b0-c492-4691-961b-d6e179c56526/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="754">
+              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -82,6 +96,21 @@
         <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_genre">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movie.public.movie_person" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="-10">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -114,15 +143,11 @@
             <state>
               <ID>DATABASE</ID>
               <OriginalElement>27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre</OriginalElement>
-              <nodes>
-                <node x="0.0" y="0.0">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre</node>
-              </nodes>
+              <nodes />
               <notes />
               <edges />
               <settings layout="Hierarchic Group" zoom="1.0" x="-113.0" y="-2676.0" />
-              <SelectedNodes>
-                <node>27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre</node>
-              </SelectedNodes>
+              <SelectedNodes />
               <Categories>
                 <Category>Key columns</Category>
                 <Category>Columns</Category>
@@ -131,19 +156,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DATABASE/27d0f6b0-c492-4691-961b-d6e179c56526.SCHEMA:movie.public" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DATABASE/27d0f6b0-c492-4691-961b-d6e179c56526.SCHEMA:movie.public" pinned="false" current-in-tab="false">
         <entry file="uml://DATABASE/27d0f6b0-c492-4691-961b-d6e179c56526.SCHEMA:movie.public">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>DATABASE</ID>
               <OriginalElement>27d0f6b0-c492-4691-961b-d6e179c56526.SCHEMA:movie.public</OriginalElement>
               <nodes>
-                <node x="-99.98496240601506" y="168.62781954887222">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_person</node>
-                <node x="-99.59398496240598" y="29.60902255639094">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.person</node>
+                <node x="-200.8834586466165" y="240.19172932330827">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_person</node>
+                <node x="-247.63909774436087" y="-1.3458646616541685">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.person</node>
                 <node x="208.93233082706763" y="12.112781954887211">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie</node>
                 <node x="488.67669172932335" y="48.13533834586467">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre</node>
                 <node x="211.30075187969913" y="192.14285714285722">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.reviews</node>
-                <node x="469.7067669172932" y="202.5714285714286">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_genre</node>
+                <node x="449.7067669172932" y="180.0714285714286">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_genre</node>
               </nodes>
               <notes />
               <edges>
@@ -159,53 +184,23 @@
                   <point x="0.0" y="0.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
-                <edge source="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.reviews" target="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
                 <edge source="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_genre" target="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie">
                   <point x="0.0" y="0.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
+                <edge source="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.reviews" target="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.7430167597765364" x="224.89097744360902" y="157.9360902255639" />
+              <settings layout="Hierarchic Group" zoom="0.7430167597765364" x="-48.992481203007515" y="273.0075187969925" />
               <SelectedNodes>
-                <node>27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_genre</node>
+                <node>27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_person</node>
               </SelectedNodes>
               <Categories>
                 <Category>Key columns</Category>
                 <Category>Columns</Category>
               </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movie.public.person" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.person">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movie.public.movie" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -721,12 +716,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490891880199</updated>
-      <workItem from="1490891882350" duration="21429000" />
+      <workItem from="1490891882350" duration="30392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21429000" />
+    <option name="totallyTimeSpent" value="30392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,7 +734,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -754,10 +749,10 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4442748" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57099235" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2835218" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2835218" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -831,9 +826,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.genre">
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-10">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -844,62 +839,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.person">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-113.0" y="-2676.0" />
-          <SelectedNodes>
-            <node>27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/27d0f6b0-c492-4691-961b-d6e179c56526/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_genre">
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -925,18 +865,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-113.0" y="-2676.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://DATABASE/27d0f6b0-c492-4691-961b-d6e179c56526.SCHEMA:movie.public">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>DATABASE</ID>
           <OriginalElement>27d0f6b0-c492-4691-961b-d6e179c56526.SCHEMA:movie.public</OriginalElement>
           <nodes>
-            <node x="-99.98496240601506" y="168.62781954887222">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_person</node>
-            <node x="-99.59398496240598" y="29.60902255639094">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.person</node>
+            <node x="-200.8834586466165" y="240.19172932330827">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_person</node>
+            <node x="-247.63909774436087" y="-1.3458646616541685">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.person</node>
             <node x="208.93233082706763" y="12.112781954887211">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie</node>
             <node x="488.67669172932335" y="48.13533834586467">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.genre</node>
             <node x="211.30075187969913" y="192.14285714285722">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.reviews</node>
-            <node x="469.7067669172932" y="202.5714285714286">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_genre</node>
+            <node x="449.7067669172932" y="180.0714285714286">27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_genre</node>
           </nodes>
           <notes />
           <edges>
@@ -952,23 +948,239 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.reviews" target="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_genre" target="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
+            <edge source="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.reviews" target="27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.7430167597765364" x="224.89097744360902" y="157.9360902255639" />
+          <settings layout="Hierarchic Group" zoom="0.7430167597765364" x="-48.992481203007515" y="273.0075187969925" />
           <SelectedNodes>
-            <node>27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_genre</node>
+            <node>27d0f6b0-c492-4691-961b-d6e179c56526.TABLE:movie.public.movie_person</node>
           </SelectedNodes>
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_person">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.genre">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/504a64d4/27d0f6b0-c492-4691-961b-d6e179c56526/movie.public.movie_genre">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/27d0f6b0-c492-4691-961b-d6e179c56526/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
